@@ -1,0 +1,10 @@
+- name: my_dropbox
+  import_name: providers.dropbox.DropboxCloudProvider
+  init_kwargs:
+    token: sl.Aug5HuPCPgVUqPJdDNZvOieLrEX77Y_5pQlBeiib3nJ0kBrFsaUnRUzH5XHFSIj0xdC0f2b5PPVxIr93ytPSzbSoU3v-YwE1XnHSxxtwiit-9B0MeQd4TtznAXYf4o9kfYKifjU
+    upload_path: /backups
+- name: another_dropbox
+  import_name: providers.dropbox.DropboxCloudProvider
+  init_kwargs:
+    token: WHATEVER
+    upload_path: /does/not/exists

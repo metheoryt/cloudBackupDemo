@@ -1,0 +1,5 @@
+.env
+config/providers.yml
+config/logging.yml
+__pycache__/
+.idea
